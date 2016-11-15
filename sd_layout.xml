@@ -1,0 +1,248 @@
+<xml version="1.0">
+<dashboard>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.MJPGStreamerViewerExtension">
+		<location x="369" y="22"/>
+		<width>741</width>
+		<height>562</height>
+		<property name="Robot IP Address or mDNS name" value="10.40.96.18"/>
+		<property name="port" value="5801"/>
+	</static-widget>
+	<widget field="," type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="1482" y="4"/>
+		<height>591</height>
+	</widget>
+	<widget field="Cam Fudge: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="161" y="566"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="288" y="279"/>
+		<property name="Text" value="Boulder:"/>
+	</static-widget>
+	<widget field="..." type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="291" y="303"/>
+		<width>47</width>
+		<height>34</height>
+	</widget>
+	<widget field="GRIP Num Contours: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="18" y="404"/>
+	</widget>
+	<widget field=".." type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="294" y="474"/>
+		<width>43</width>
+		<height>35</height>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="285" y="451"/>
+		<property name="Text" value="Pressure:"/>
+	</static-widget>
+	<widget field="pressure Voltage: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="140" y="673"/>
+	</widget>
+	<widget field="Shooter P: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="581" y="672"/>
+	</widget>
+	<widget field="Shooter I: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="602" y="662"/>
+	</widget>
+	<widget field="Shooter D: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="550" y="675"/>
+	</widget>
+	<widget field="pressure: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="219" y="519"/>
+		<width>125</width>
+	</widget>
+	<widget field="Shooter Wheel PID Output: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="503" y="700"/>
+	</widget>
+	<widget field="Shooter Wheel Output: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="5" y="332"/>
+		<width>182</width>
+	</widget>
+	<widget field="." type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="293" y="384"/>
+		<width>40</width>
+		<height>37</height>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="267" y="361"/>
+		<property name="Text" value="Targets Visible:"/>
+	</static-widget>
+	<widget field="Last Shot Wheel Speed: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="208" y="692"/>
+	</widget>
+	<widget field="Feeder Lift PID Values: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="392" y="754"/>
+	</widget>
+	<widget field="cor x,y:  " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="53" y="643"/>
+	</widget>
+	<widget field="raw x,y:  " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="59" y="841"/>
+	</widget>
+	<widget field="Drive I: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="818" y="702"/>
+	</widget>
+	<widget field="Drive Forward\drive_forward_slow_duration" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="168" y="801"/>
+	</widget>
+	<widget field="Drive Backward\stop_duration" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="493" y="726"/>
+	</widget>
+	<widget field="Drive Forward\drive_forward_fast_duration" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="97" y="781"/>
+	</widget>
+	<widget field="Drive D: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="815" y="729"/>
+		<height>22</height>
+	</widget>
+	<widget field="Drive P: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="815" y="677"/>
+	</widget>
+	<widget field="Drive Forward\stop_duration" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="77" y="758"/>
+	</widget>
+	<widget field="Ultra Distance: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="47" y="231"/>
+	</widget>
+	<widget field="Drive Forward\drive_wait_duration" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="506" y="795"/>
+	</widget>
+	<widget field="Drive Backward\drive_backward_fast_duration" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="513" y="829"/>
+	</widget>
+	<widget field="Drive Backward\drive_backward_slow_duration" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="453" y="842"/>
+	</widget>
+	<widget field="Drive Backward\drive_wait_duration" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="571" y="772"/>
+		<height>37</height>
+	</widget>
+	<widget field="Do Nothing\wait_duration" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="67" y="724"/>
+	</widget>
+	<widget field="Shooter Wheel Enc: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="23" y="305"/>
+		<height>22</height>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="19" y="692"/>
+		<property name="Text" value="Autonomous Mode:"/>
+	</static-widget>
+	<widget field="Feeder Lift Encoder: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="15" y="179"/>
+	</widget>
+	<widget field="Shooter Wheel: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="47" y="279"/>
+	</widget>
+	<widget field="Feeder Belts: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="55" y="153"/>
+		<height>22</height>
+	</widget>
+	<widget field="Indexer: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="83" y="205"/>
+	</widget>
+	<widget field="Feeder Lift: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="65" y="127"/>
+	</widget>
+	<widget field="Drive Correction:  " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="31" y="81"/>
+		<width>322</width>
+	</widget>
+	<widget field="Shooter Lift: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="354" y="726"/>
+	</widget>
+	<widget field="GRIP: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="102" y="379"/>
+	</widget>
+	<widget field="Gyro Angle: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="65" y="55"/>
+		<width>288</width>
+		<height>22</height>
+	</widget>
+	<widget field="Drive Values: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="56" y="28"/>
+		<width>297</width>
+	</widget>
+	<widget field="Drive State:  " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="60" y="3"/>
+		<width>293</width>
+	</widget>
+	<widget field="Autonomous Mode" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="32" y="459"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.MJPGStreamerViewerExtension">
+		<location x="1122" y="15"/>
+		<width>742</width>
+		<height>575</height>
+		<property name="Robot IP Address or mDNS name" value="10.40.96.18"/>
+		<property name="port" value="5802"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="285" y="451"/>
+		<property name="Text" value="Pressure:"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="267" y="361"/>
+		<property name="Text" value="Targets Visible:"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="35" y="700"/>
+		<property name="Text" value="Autonomous Mode:"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="18" y="439"/>
+		<property name="Text" value="Autonomous Mode:"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.MJPGStreamerViewerExtension">
+		<location x="369" y="22"/>
+		<width>741</width>
+		<height>562</height>
+		<property name="Robot IP Address or mDNS name" value="10.40.96.18"/>
+		<property name="port" value="5801"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="288" y="279"/>
+		<property name="Text" value="Boulder:"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="285" y="451"/>
+		<property name="Text" value="Pressure:"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="267" y="361"/>
+		<property name="Text" value="Targets Visible:"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="19" y="692"/>
+		<property name="Text" value="Autonomous Mode:"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.MJPGStreamerViewerExtension">
+		<location x="1122" y="15"/>
+		<width>742</width>
+		<height>575</height>
+		<property name="Robot IP Address or mDNS name" value="10.40.96.18"/>
+		<property name="port" value="5802"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="285" y="451"/>
+		<property name="Text" value="Pressure:"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="267" y="361"/>
+		<property name="Text" value="Targets Visible:"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="13" y="10"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="35" y="700"/>
+		<property name="Text" value="Autonomous Mode:"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="18" y="439"/>
+		<property name="Text" value="Autonomous Mode:"/>
+	</static-widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>
