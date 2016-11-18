@@ -1,0 +1,5 @@
+*.wpu
+*.pyc
+__pycache__\*.*
+python_test_01/tests/.cache/v/cache/lastfailed
+.DS_Store
