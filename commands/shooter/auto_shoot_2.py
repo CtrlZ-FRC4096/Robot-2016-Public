@@ -30,10 +30,9 @@ import const
 
 def calculate_angle( robot ):
 	target_values = robot.shooter_camera.get_target_values( )
-	print( target_values )
+
 	if len( target_values[ 'centerX' ] ) == 0:
 		# No vision targets found
-		print( 'No vision targets found' )
 		return 0
 	
 	elif len( target_values[ 'centerX' ] ) == 1:
@@ -56,20 +55,13 @@ def calculate_angle( robot ):
 				
 		center_x = target_values[ 'centerX' ][ largest_area_idx ]
 		
-	print("  center_x: ", center_x)
-	
 	#target_x = const.CAMERA_RES_X / 2.0 + const.CAMERA_SHOOTER_PIXEL_OFFSET
 	cam_fudge_value = wpilib.SmartDashboard.getNumber( 'Cam Fudge: ' )
 	target_x = const.CAMERA_RES_X / 2.0 + cam_fudge_value
 
 	pixel_offset = target_x - center_x
-	print("  pixel_offset", pixel_offset)
-	
 	degrees_per_pixel = const.CAMERA_FOV / const.CAMERA_RES_X
-	print( '  degrees_per_pixel', degrees_per_pixel )
-	
 	degrees_offset = pixel_offset * degrees_per_pixel * -1.0
-	print( '  degrees_offset', degrees_offset )
 
 	return degrees_offset
 

@@ -193,7 +193,8 @@ class OI:
 		self.button_drive_shift.whenPressed( Set_State_Mecanum( self.robot ) )
 		self.button_drive_shift.whenReleased( Set_State_Tank( self.robot ) )
 
-		##create pid update triggers
+		## Create pid update triggers
+		## Used for dynamically tweaking PID values
 		#dp_trigger = SmartDashboard_Update_Trigger( 'Drive P: ', self.robot.drive.default_kP )
 		#dp_trigger.whenActive(
 			#Command_Call( lambda : self.robot.drive.update_pid( p = dp_trigger.get_key_value( ) ) )

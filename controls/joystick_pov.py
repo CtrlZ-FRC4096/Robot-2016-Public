@@ -40,8 +40,6 @@ class Joystick_POV( Button ):
 
         :returns: The value of the joystick button
         """
-        #return self.joystick.getRawButton(self.buttonNumber)
         pov_val = self.joystick.getPOV( )
-        #print('pov = {0}'.format( pov_val ))
         
         return pov_val == self.pov_number

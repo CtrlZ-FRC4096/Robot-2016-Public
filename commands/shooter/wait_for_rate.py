@@ -20,8 +20,6 @@ class Wait_For_Rate( Command ):
 		super( ).__init__( )
 
 		self.robot = robot
-
-		#self.requires( self.robot.shooter_wheel )
 		self.interruptible = True
 
 		self.target_rate = target_rate

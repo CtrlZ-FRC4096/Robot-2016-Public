@@ -50,16 +50,8 @@ class Index_With_Feeder( Command ):
 
 	def isFinished( self ):
 		boulder_held = self.robot.indexer.is_boulder_indexed()	
-		#print( 'boulder_held', boulder_held )
-		
-		return boulder_held
 	
-		# Incomplete code
-		if not boulder_held:
-			return False
-		
-		if not self.indexer_timer.hasPeriodPassed( const.INDEXER_HELD_DELAY ):
-			return False
+		return boulder_held
 		
 	
 	def end( self ):

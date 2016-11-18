@@ -58,7 +58,6 @@ class Drive_With_Mecanum( Command ):
 		z = self.get_z( ) if callable( self.get_z ) else self.get_z
 
 		# Not doing field-centric, so always pass 0 for gyro value
-		#print( x, y, z )
 		self.robot.drive.drive_with_mecanum( x, y, z, 0 )
 			
 

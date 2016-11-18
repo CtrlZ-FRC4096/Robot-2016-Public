@@ -7,10 +7,10 @@ contact@team4096.org
 
 from wpilib.buttons.joystickbutton import Button
 
-__all__ = ["JoystickButton"]
+__all__ = [ "JoystickButton" ]
 
-class Xbox_Button(Button):
-    def __init__(self, xbox_controller, buttonNumber):
+class Xbox_Button( Button ):
+    def __init__( self, xbox_controller, buttonNumber ):
         """Create a Xbox button for triggering commands.
 
         :param joystick: The GenericHID object that has the button (e.g.
@@ -18,13 +18,13 @@ class Xbox_Button(Button):
         :param buttonNumber: The button number
                              (see :meth:`GenericHID.getRawButton`)
         """
-        super().__init__()
+        super( ).__init__( )
         self.xbox_controller = xbox_controller
         self.buttonNumber = buttonNumber
 
-    def get(self):
+    def get( self ):
         """Gets the value of the joystick button.
 
         :returns: The value of the joystick button
         """
-        return self.xbox_controller.ds.getStickButton(0, self.buttonNumber)
+        return self.xbox_controller.ds.getStickButton( 0, self.buttonNumber )

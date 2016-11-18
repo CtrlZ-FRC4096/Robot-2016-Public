@@ -26,7 +26,6 @@ import subsystems.shooter_wheel
 import subsystems.shooter_camera
 
 import controls.xbox_controller
-import controls.banner
 import oi
 import const
 
@@ -35,6 +34,7 @@ from commands.drivetrain.set_state_tank import Set_State_Tank
 log = logging.getLogger( 'robot' )
 
 # Uncomment following line to deploy that GRIP config file to robot
+# This requires use of Wing IDE and our custom deploy script
 #GRIP_FILE_PATH = "shoptraining.grip"
 
 
@@ -137,8 +137,6 @@ class Robot( wpilib.IterativeRobot ):
 
 		self.log( )
 
-		self._banner_shown = False
-
 
 	### Disabled ###
 
@@ -146,12 +144,8 @@ class Robot( wpilib.IterativeRobot ):
 		"""
 		Runs once when disabled
 		"""
-		#if not self._banner_shown:
-			#print( controls.banner.get_banner_message( ) )
-			#self._banner_shown = True
-
-		print( '\n        ======================== ROBOT DISABLED & READY ========================\n' )
-
+		pass
+	
 
 	def disabledPeriodic( self ):
 		"""
